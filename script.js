@@ -1,5 +1,7 @@
 
-let numero = 17
+let numero = 32
+
+console.log(esPrimo(numero));
 
 function esPrimo(num) {
     let contDivisores = 0
@@ -8,5 +10,11 @@ function esPrimo(num) {
             contDivisores = contDivisores +1 
         }        
     }
+
+    if (contDivisores == 2) {
+        return true
+    }
+
+    return false
 }
 
