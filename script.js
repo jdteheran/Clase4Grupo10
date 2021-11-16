@@ -4,6 +4,7 @@ let numero2 = 34
 let numero3 = 37
 let numero4 = 39
 
+console.log("Hola Soy danilo");
 console.log(esPrimo(numero));
 console.log(esPrimo(numero2));
 console.log(esPrimo(numero3));
