@@ -2,6 +2,9 @@
 let numero = 32
 
 console.log(esPrimo(numero));
+console.log(esPrimo(numero+1));
+console.log(esPrimo(numero+5));
+console.log(esPrimo(numero+7));
 
 function esPrimo(num) {
     let contDivisores = 0
