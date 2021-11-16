@@ -12,7 +12,7 @@ console.log(esPrimo(numero4));
 function esPrimo(num) {
     let contDivisores = 0
     for (let i = 1; i <= num; i++) {
-        if (num % i == 0)  {
+        if (num % i == 0 || false)  {
             contDivisores = contDivisores +1 
         }        
     }
